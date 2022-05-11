@@ -1,22 +1,88 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #5c48d2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
-div {
-  border: solid black 3px;
-  width: 900px;
-  height: 400px;
+p{
+  line-height: 30px;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 40px;
+}
+
+.header_title{
+  color: #ffff;
+  font-size: 48px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.main-block{
+  width: 1024px;
+  height: 500px;
+  background-color: #ffff;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.navigation{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-img {
-  width: 350px;
-  height: 200px;
+.nav-link{
+  font-size: 20px;
+  color: #190f33;
+  text-decoration: none;
+  line-height: 100px; /*place au centre l'élément enfant <a> dans l'élément parent à mi-hauteur sans préciser height*/
 }
 
-p {
-  background-color: red;
-  width: 400px;
-  height: 100px;
+.nav-link:hover{
+  color: #5c48d2;
+}
+
+.image-prinipale{
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+
+.about-section{
+  background-color: #ffff;
+  height: 700px;
+}
+
+.about-class{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.image-dog{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid #fcc01a;
+}
+
+.johndog{
+  font-size: 38px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 50px;
+}
+
+.ville{
+  font-style: italic;
+  font-size: 30px;
+  color: #190f33;
+}
+
+.lorem-about{
+  text-align: justify;
 }
