@@ -8,11 +8,24 @@ p{
   line-height: 30px;
 }
 
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #190f33;
+  margin-bottom: 80px;
+}
+
 h3{
   font-size: 26px;
   font-weight: bold;
   color: #190f33;
   margin-bottom: 40px;
+}
+
+h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .header_title{
@@ -54,20 +67,23 @@ h3{
 
 .about-section{
   background-color: #ffff;
-  height: 700px;
 }
 
 .about-class{
   display: flex;
   justify-content:center;
-  align-items: center;
+  align-items: center; 
 }
 
 .image-dog{
   height: 250px;
   width: 250px;
-  border-radius: 50%;
-  border: 1px solid #fcc01a;
+  border-radius: 60%;
+  border: 2px solid #fcc01a;
+  margin-right: 80px;
+  margin-top: 100px;
+  object-fit: cover;
+
 }
 
 .johndog{
@@ -75,14 +91,114 @@ h3{
   font-weight: bold;
   color: #190f33;
   margin-bottom: 50px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .ville{
   font-style: italic;
   font-size: 30px;
   color: #190f33;
+  text-align: center;
 }
 
 .lorem-about{
   text-align: justify;
+  margin: 0 100px;
+  padding-bottom: 100px;
 }
+
+.title-about{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.formation{
+  background-color: #eeeef7;
+  padding-bottom: 25px;
+}
+
+.title-formation{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.textformation{
+  text-align: center;
+}
+
+.langages{
+  display: flex;
+  justify-content: space-around;  
+  margin: 80px 100px;
+}
+
+.logo-formation{
+  height: 100px;
+}
+
+.textformation2{
+  text-align: center;
+}
+
+.libelleformation{
+  font-weight: bold;
+}
+
+.langagesJS{
+  display: flex;
+  justify-content: space-around;  
+  margin: 80px 100px;
+}
+
+.projets{
+  background-color: #ffff;
+}
+
+.title-projets{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.textprojets{
+  text-align: center;
+  /* padding-bottom: 50px; */
+}
+
+.projets img{
+  width: 500px;
+  margin-right: 60px;
+}
+
+.projets li{
+  line-height: 30px;
+  list-style-type: disc;  /*puces sur la liste*/
+}
+
+.divprojet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 50px;
+}
+
+.contact{
+  background-color: #ffff;
+}
+
+.divcontact{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact img{
+  height: 30px;
+  margin-right: 20px;
+}
+
+.contact img:hoover{
+  color: #5c48d2;
+}
+
